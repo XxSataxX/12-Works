@@ -1,0 +1,13 @@
+﻿<Window x:Class="AnimalClassifier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Главное Окно" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Button Name="LoadImageButton" Content="Загрузить изображение" Click="LoadImage_Click" />
+            <Button Name="ClassifyImageButton" Content="Классифицировать изображение" Click="ClassifyImage_Click" />
+            <Image Name="ImageDisplay" Width="200" Height="200" />
+            <TextBlock Name="ResultText" />
+        </StackPanel>
+    </Grid>
+</Window>
